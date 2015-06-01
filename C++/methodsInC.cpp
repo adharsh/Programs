@@ -9,11 +9,20 @@ int subtraction (int a, int b){
   return r;
 }	
 
+void subtraction (int* a, int* b, int* c){
+	c* = a* - b*;
+}
+
 int main (){
-  int x=6, y=33, z;
-  z = subtraction(x,y);
+  int* x;
+	int* y
+int*  z;
+
+	x* = 33;
+	y* = 6;
+  subtraction(x,y,z);
 
   printf("Hello World\n");
-  printf("Number = 5: right? %i\n", z);
+  printf("Number = 27: right? %i\n", z*);
 
 }

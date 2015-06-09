@@ -1,13 +1,13 @@
-#include "Date.h"
+#include "Date.hpp"
 
 Date::Date(int month, int day, int year){
 	setDate(month, day, year);
 }
 
 void Date::setDate(int month, int day, int year){
-	month(month);
-	day(day);
-	year(year);
+	this->month = month;
+	this->day = day;
+	this->year = year;
 }
 
 int Date::getMonth(){ return month; }

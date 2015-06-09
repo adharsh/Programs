@@ -3,18 +3,10 @@
 
 int main(){
 	
-	double num;
-	printf("Enter Number: ");
-	scanf("%lf", &num);
+	unsigned int num;
+	printf("Enter Number:");
+	scanf("%d", &num);
 
-	for(double i = 1000000; i > 1; i--){
-		if( fmod(num,i) == 0){
-			num = i;
-			break;		
-		}
-	//	printf("Iteration %lf\n", i);
-	}
+	printf("%d", &num);
 
-	printf("Largest Prime Factor: %lf\n", num);
-	return -1;
 }

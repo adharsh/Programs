@@ -2,7 +2,7 @@
 
 int main(){
 	printf("Starting Up\n");	
-	
+
 	int a=10;
 	char s[]="This is a String test";
 	printf("Printing out integer: ");
@@ -29,6 +29,6 @@ int main(){
 	}
 
 	printf("%i \n", r;
-	
-	return 0;
-}
+		
+		return 0;
+	}

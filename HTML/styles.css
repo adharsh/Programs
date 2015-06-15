@@ -1,18 +1,33 @@
-h1{
-	color: purple;
+h1{	
+	font-family: "Monotype Corsiva", "Comic Sans MS", cursive;
+	font-size: 100px;
+	margin-top: 60px;
+	margin-bottom: -50px;
+	opacity: 1.0;
+	color: #000000;
 }
 
-a:hover{ color: blue; }
-a:active{ color: purple}
-a:visited{ color: green; }
+h2{
+	font-family: "Monotype Corsiva", "Comic Sans MS", cursive;
+	font-size: 50px;
+	opacity: 1.0;
+	color: #000000;
+}
 
 body{
-	background: #5D8AA8;
+	background-image: url("backgroundImage.png");
+	 background-color: #000000;
 }
 
 div#wrapper{
+	opacity: 0.4;
 	margin:auto;
 	background: #FFFFFF;
 	width: 800px;
 	height: 2000px;
+	margin-bottom: 40px;
+}
+
+h6{
+	margin-bottom: 40px;
 }

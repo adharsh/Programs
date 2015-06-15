@@ -1,0 +1,18 @@
+h1{
+	color: purple;
+}
+
+a:hover{ color: blue; }
+a:active{ color: purple}
+a:visited{ color: green; }
+
+body{
+	background: #5D8AA8;
+}
+
+div#wrapper{
+	margin:auto;
+	background: #FFFFFF;
+	width: 800px;
+	height: 2000px;
+}
